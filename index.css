@@ -1,0 +1,63 @@
+body {
+  background-color: #090b1a;
+  Font-size: 15px;
+}
+
+.challenge1 {
+  width: 100%;
+  padding: 10vw 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+  .challenge1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.challenge1 .text {
+  width: 50%;
+  background-color: #1b1938;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10vw 10vw;
+}
+
+.challenge1 .text i {
+  color: blueviolet;
+}
+
+.challenge1 .text .stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.challenge1 img {
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=index.css.map */

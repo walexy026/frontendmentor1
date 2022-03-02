@@ -1,0 +1,47 @@
+body{
+   background-color: hsl(233, 47%, 7%); 
+   Font-size: 15px;
+}
+.challenge1{
+    width: 100%;
+    padding: 10vw 10vh;
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 780px){
+        flex-direction: column-reverse;
+        
+    }
+    
+
+    .text{
+        width: 50%;
+       background-color: hsl(244, 38%, 16%);
+       color: #fff;
+       justify-content: center;
+       padding: 10vw 10vw;
+
+       i{
+           color: blueviolet;
+       }
+
+       .stat{
+           display: flex;
+           gap: 10vw;
+           justify-content: center;
+           text-transform: uppercase;
+       }
+    }
+img{
+    width: 100%;
+
+}
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
